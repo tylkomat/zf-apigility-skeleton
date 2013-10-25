@@ -17,7 +17,8 @@
         "issues": "https://github.com/zfcampus/zf-apigility-skeleton/issues"
     },
     "repositories": [
-        { "type": "composer", "url": "https://packages.zendframework.com" }
+        { "type": "composer", "url": "https://packages.zendframework.com" },
+        { "type": "vcs", "url": "https://github.com/zfcampus/zf-mvc-auth.git" }
     ],
     "minimum-stability": "dev",
     "require": {
@@ -25,7 +26,8 @@
         "zendframework/zendframework": "dev-develop",
         "rwoverdijk/assetmanager": "dev-master",
         "zfcampus/zf-apigility": "dev-master",
-        "zfcampus/zf-configuration": "dev-master"
+        "zfcampus/zf-configuration": "dev-master",
+        "zfcampus/zf-mvc-auth": "dev-master"
     },
     "require-dev": {
         "zendframework/zftool": "dev-master",

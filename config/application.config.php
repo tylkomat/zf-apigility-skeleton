@@ -8,9 +8,7 @@ return array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
         'Application',
-        'ZF\Apigility',
-        'ZF\Apigility\Welcome',
-        'AssetManager',
+        'ZF\MvcAuth',
         'ZF\ApiProblem',
         'ZF\Hal',
         'ZF\ContentNegotiation',
@@ -18,6 +16,9 @@ return array(
         'ZF\Rpc',
         'ZF\Configuration',
         'ZF\Versioning',
+        'AssetManager',
+        'ZF\Apigility',
+        'ZF\Apigility\Welcome',
     ),
     // This should be an array of paths in which modules reside.
     // If a string key is provided, the listener will consider that a module
